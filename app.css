@@ -1,0 +1,39 @@
+body {
+  background-color: #161616;
+  height: 100vh;
+}
+
+.app {
+  margin-top: 250px;
+  text-align: center;
+}
+
+.app h1 {
+  color: #fff;
+}
+
+.app h4 {
+  color: #fff;
+}
+
+.app form {
+  margin-bottom: 50px;
+}
+
+.app form .form-control {
+  padding: 2rem 1rem;
+  font-size: 1.5rem;
+  background-color: #292929;
+  color: #fff;
+  text-align: center;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border-radius: .50rem;
+  -webkit-transition: .5;
+  transition: .5;
+}
+
+.app form .form-control:focus {
+  border-color: #52b043;
+}
+/*# sourceMappingURL=app.css.map */

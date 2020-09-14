@@ -1,0 +1,36 @@
+body {
+    background-color: #161616;
+    height: 100vh;
+}
+
+.app {
+    margin-top: 250px;
+    text-align: center;
+
+    h1 {
+        color: #fff;
+    }
+
+    h4 {
+        color: #fff;
+    }
+
+    form {
+        margin-bottom: 50px;
+
+        .form-control {
+            padding: 2rem 1rem;
+            font-size: 1.5rem;
+            background-color: #292929;
+            color: #fff;
+            text-align: center;
+            box-shadow: none;
+            border-radius: .50rem;
+            transition: .5;
+
+            &:focus {
+                border-color: #52b043;
+            }
+        }
+    }
+}
