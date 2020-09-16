@@ -7,13 +7,18 @@ body {
     margin-top: 250px;
     text-align: center;
 
-    h1 {
-        color: #fff;
+    .header {
+        margin-bottom: 50px;
+    
+        img {
+            
+        }
+
+        h4 {
+            color: #fff;
+        }
     }
 
-    h4 {
-        color: #fff;
-    }
 
     form {
         margin-bottom: 50px;
@@ -26,6 +31,8 @@ body {
             text-align: center;
             box-shadow: none;
             border-radius: .50rem;
+            border-color: transparent;
+            box-shadow: 0 6px 15px 0 rgba(0,0,0,0.15);
             transition: .5;
 
             &:focus {

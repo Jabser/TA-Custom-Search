@@ -8,11 +8,11 @@ body {
   text-align: center;
 }
 
-.app h1 {
-  color: #fff;
+.app .header {
+  margin-bottom: 50px;
 }
 
-.app h4 {
+.app .header h4 {
   color: #fff;
 }
 
@@ -29,6 +29,9 @@ body {
   -webkit-box-shadow: none;
           box-shadow: none;
   border-radius: .50rem;
+  border-color: transparent;
+  -webkit-box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.15);
   -webkit-transition: .5;
   transition: .5;
 }
