@@ -1,6 +1,5 @@
 body {
   background-color: #161616;
-  height: 100vh;
 }
 
 .app {
@@ -8,19 +7,19 @@ body {
   text-align: center;
 }
 
-.app .header {
+.app .search .header {
   margin-bottom: 50px;
 }
 
-.app .header h4 {
+.app .search .header h1 {
   color: #fff;
 }
 
-.app form {
+.app .search form {
   margin-bottom: 50px;
 }
 
-.app form .form-control {
+.app .search form .form-control {
   padding: 2rem 1rem;
   font-size: 1.5rem;
   background-color: #292929;
@@ -32,11 +31,35 @@ body {
   border-color: transparent;
   -webkit-box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.15);
           box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.15);
-  -webkit-transition: .5;
-  transition: .5;
+  -webkit-transition: .5s;
+  transition: .5s;
 }
 
-.app form .form-control:focus {
+.app .search form .form-control:focus {
   border-color: #52b043;
+}
+
+.app .shortcuts {
+  margin-top: 70px;
+}
+
+.app .shortcuts .btn-primary {
+  color: #fff;
+  background-color: #292929;
+  -webkit-box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.15);
+  border-color: transparent;
+  padding: 1rem;
+  -webkit-transition: .5s;
+  transition: .5s;
+}
+
+.app .shortcuts .btn-primary:hover {
+  -webkit-transform: translateY(-5px);
+          transform: translateY(-5px);
+}
+
+.app .shortcuts .btn-primary i {
+  margin-bottom: 10px;
 }
 /*# sourceMappingURL=app.css.map */
