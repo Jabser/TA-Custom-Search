@@ -62,4 +62,10 @@ body {
 .app .shortcuts .btn-primary i {
   margin-bottom: 10px;
 }
+
+.app .rssapp-card-container_modern .rssapp-card {
+  border: none !important;
+  -webkit-box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.15);
+          box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.15);
+}
 /*# sourceMappingURL=app.css.map */

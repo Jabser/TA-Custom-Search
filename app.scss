@@ -56,4 +56,11 @@ body {
             }
         }
     }
+
+    // It currently doesn't work
+    // Used for the rss.app feeds
+    .rssapp-card-container_modern .rssapp-card {
+        border: none !important;
+        box-shadow: 0 6px 15px 0 rgba(0,0,0,0.15);
+    }
 }
