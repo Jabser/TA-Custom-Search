@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TA Custom Search</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <script src="https://kit.fontawesome.com/141a98f763.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="app.css">
+
+    <style>
+        body {
+        background-color: #161616;
+        }
+
+        .app {
+        margin-top: 250px;
+        text-align: center;
+        }
+
+        .app .search .header {
+        margin-bottom: 50px;
+        }
+
+        .app .search .header h1 {
+        color: #fff;
+        }
+
+        .app .search form {
+        margin-bottom: 50px;
+        }
+
+        .app .search form .form-control {
+        padding: 2rem 1rem;
+        font-size: 1.5rem;
+        background-color: #292929;
+        color: #fff;
+        text-align: center;
+        -webkit-box-shadow: none;
+                box-shadow: none;
+        border-radius: .50rem;
+        border-color: transparent;
+        -webkit-box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.15);
+                box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.15);
+        -webkit-transition: .5s;
+        transition: .5s;
+        }
+
+        .app .search form .form-control:focus {
+        border-color: #52b043;
+        }
+
+        .app .shortcuts {
+        margin-top: 70px;
+        }
+
+        .app .shortcuts .btn-primary {
+        color: #fff;
+        background-color: #292929;
+        -webkit-box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.15);
+                box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.15);
+        border-color: transparent;
+        padding: 1rem;
+        -webkit-transition: .5s;
+        transition: .5s;
+        }
+
+        .app .shortcuts .btn-primary:hover {
+        -webkit-transform: translateY(-5px);
+                transform: translateY(-5px);
+        }
+
+        .app .shortcuts .btn-primary i {
+        margin-bottom: 10px;
+        }
+        /*# sourceMappingURL=app.css.map */
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="app">
+            <div class="search">
+                <div class="row">
+                    <div class="col-md-6 d-block mx-auto">
+                        <div class="header">
+                            <img src="https://cdn.discordapp.com/attachments/764249961210576896/764250161043341372/ta-logo.svg" alt="ta logo">
+                        </div>
+
+                        <form action="https://www.trueachievements.com/searchresults.aspx?search=" class="ta" method="get" target="_blank">
+                            <input type="text" name="search" placeholder="Search TrueAchievements..." autocomplete="off" class="form-control" autofocus />
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <div class="shortcuts">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="https://www.trueachievements.com/news" class="btn btn-primary btn-block"><i class="fas fa-newspaper fa-2x"></i><br>Latest News</a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://www.trueachievements.com/news/tags/Achievement-List" class="btn btn-primary btn-block"><i class="fas fa-trophy fa-2x"></i><br>New Achievement Lists</a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://www.trueachievements.com/gamingsessions.aspx" class="btn btn-primary btn-block"><i class="fas fa-user-friends fa-2x"></i><br>Gaming Sessions</a>
+                    </div>
+                    <div class="col-md-3">
+                        <a href="https://support.xbox.com/xbox-live-status" class="btn btn-primary btn-block"><i class="fab fa-xbox fa-2x"></i><br>Xbox Live Status</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
