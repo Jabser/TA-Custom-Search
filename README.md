@@ -7,7 +7,6 @@ TA Custom Search is custom a homepage for your browser. It is specifically creat
 
 ### How to use
 
-
 **Live Version**
 
 For the most up to date version of the start page use this [link](https://jabser.github.io/TA-Custom-Search/) & set it as your new homepage.
@@ -26,6 +25,25 @@ A way to instantly search on TrueAchievements without leaving your current websi
 - Chrome
 - Edge
 - Firefox
+
+---
+
+### Feature Requests/Pull Requests
+
+**Feature Requests**
+
+Got an idea for a new feature or improvements? Post it here with the correct label.
+- [Feature Requests](https://github.com/Jabser/TA-Custom-Search/issues)
+
+**Pull Requests**
+
+Improvements to the code/design is greatly appreciated. Create a new pull request and I will have a look at it.
+- [Pull Requests](https://github.com/Jabser/TA-Custom-Search/pulls)
+
+
+**Have any other questions?**
+
+- [Create a GitHub issue with the correct label for help](https://github.com/Jabser/TA-Custom-Search/issues)
 
 ---
 
