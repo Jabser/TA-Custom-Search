@@ -75,3 +75,27 @@ body {
         }
     }
 }
+
+/* Mobile support */
+@media only screen and (min-width: 320px) and (max-width: 479px){
+    .app {
+        margin-top: 50px;
+        .search {
+            form {
+                margin-bottom: 0;
+            }
+        }
+        .shortcuts {
+            margin-top: 50px;
+            .btn-primary {
+                margin-top: 30px;
+            }
+        }
+        .disclaimer {
+            margin-top: 50px;
+            a {
+                margin-bottom: 50px;
+            }
+        }
+    }
+}
