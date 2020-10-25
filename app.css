@@ -62,4 +62,23 @@ body {
 .app .shortcuts .btn-primary i {
   margin-bottom: 10px;
 }
+
+.app .disclaimer {
+  width: 80%;
+  margin: 150px auto 0 auto;
+  color: #999;
+  font-size: 70%;
+}
+
+.app .disclaimer a {
+  display: inline-block;
+  margin-top: 20px;
+  color: #999;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.app .disclaimer a:hover {
+  color: #fff;
+}
 /*# sourceMappingURL=app.css.map */

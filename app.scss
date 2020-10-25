@@ -56,4 +56,22 @@ body {
             }
         }
     }
+
+    .disclaimer {
+        width: 80%;
+        margin: 150px auto 0 auto;
+        color: #999;
+        font-size: 70%;
+
+        a {
+            display: inline-block;
+            margin-top: 20px;
+            color: #999;
+            transition: .3s;
+
+            &:hover {
+                color: #fff;
+            }
+        }
+    }
 }
