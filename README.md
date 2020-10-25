@@ -1,6 +1,8 @@
 # TA Custom Search
 TA Custom Search is custom a homepage for your browser. It is specifically created for achievement hunters on [TrueAchievements](https://www.trueachievements.com/).
 
+![cover](cover.png)
+
 ---
 
 ### How to use
