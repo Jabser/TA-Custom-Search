@@ -1,5 +1,5 @@
 # TA Custom Search
-TA Custom Search is custom a homepage for your browser. It's specifically created for achievement hunters on [TrueAchievements](https://www.trueachievements.com/).
+TA Custom Search is custom a homepage for your browser. It is specifically created for achievement hunters on [TrueAchievements](https://www.trueachievements.com/).
 
 ---
 
@@ -8,7 +8,7 @@ TA Custom Search is custom a homepage for your browser. It's specifically create
 
 **Live Version**
 
-For the most up to date version of the startpage use this [link](https://jabser.github.io/TA-Custom-Search/) & set it as your new homepage.
+For the most up to date version of the start page use this [link](https://jabser.github.io/TA-Custom-Search/) & set it as your new homepage.
 
 **Manual**
 
@@ -19,7 +19,7 @@ If you would rather set it up locally you can download the file [here](https://g
 ### Extension Version
 **Coming Soon**
 
-A way to quickly search on TrueAchievements without leaving your current website.
+A way to instantly search on TrueAchievements without leaving your current website.
 
 - Chrome
 - Edge
