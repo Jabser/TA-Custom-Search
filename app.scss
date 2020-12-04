@@ -51,6 +51,15 @@ body {
                 transform: translateY(-5px);
             }
 
+            &:active,
+            &:focus {
+                background-color: #292929;
+                border-color: transparent;
+            }
+            &:active:focus {
+                box-shadow: none;
+            }
+
             i {
                 margin-bottom: 10px;
             }

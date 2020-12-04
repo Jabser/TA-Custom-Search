@@ -59,6 +59,16 @@ body {
           transform: translateY(-5px);
 }
 
+.app .shortcuts .btn-primary:active, .app .shortcuts .btn-primary:focus {
+  background-color: #292929;
+  border-color: transparent;
+}
+
+.app .shortcuts .btn-primary:active:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
 .app .shortcuts .btn-primary i {
   margin-bottom: 10px;
 }
