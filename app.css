@@ -70,7 +70,14 @@ body {
   font-size: 70%;
 }
 
-.app .disclaimer a {
+.app .disclaimer a.disclaimer-link {
+  display: inline-block;
+  margin-bottom: 30px;
+  color: #52b043;
+  font-size: 120%;
+}
+
+.app .disclaimer a.disclaimer-github {
   display: inline-block;
   margin-top: 20px;
   color: #999;
@@ -78,7 +85,7 @@ body {
   transition: .3s;
 }
 
-.app .disclaimer a:hover {
+.app .disclaimer a.disclaimer-github:hover {
   color: #fff;
 }
 
@@ -99,7 +106,7 @@ body {
   .app .disclaimer {
     margin-top: 50px;
   }
-  .app .disclaimer a {
+  .app .disclaimer a.disclaimer-github {
     margin-bottom: 50px;
   }
 }

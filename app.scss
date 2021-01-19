@@ -63,7 +63,14 @@ body {
         color: #999;
         font-size: 70%;
 
-        a {
+        a.disclaimer-link {
+            display: inline-block;
+            margin-bottom: 30px;
+            color: #52b043;
+            font-size: 120%;
+        }
+
+        a.disclaimer-github {
             display: inline-block;
             margin-top: 20px;
             color: #999;
@@ -93,7 +100,8 @@ body {
         }
         .disclaimer {
             margin-top: 50px;
-            a {
+
+            a.disclaimer-github {
                 margin-bottom: 50px;
             }
         }
