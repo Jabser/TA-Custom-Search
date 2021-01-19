@@ -13,7 +13,7 @@ For the most up to date version of the start page use this [link](https://jabser
 
 **Manual**
 
-If you would rather set it up locally you can download the file [here](https://github.com/Jabser/TA-Custom-Search/blob/master/docs/index.html) & configure it as your homepage.
+If you would rather set it up locally you can download the file [here](https://raw.githubusercontent.com/Jabser/TA-Custom-Search/master/docs/index.html) & configure it as your homepage.
 
 ---
 
