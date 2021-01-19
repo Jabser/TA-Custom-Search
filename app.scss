@@ -51,6 +51,15 @@ body {
                 transform: translateY(-5px);
             }
 
+            &:active,
+            &:focus {
+                background-color: #292929;
+                border-color: transparent;
+            }
+            &:active:focus {
+                box-shadow: none;
+            }
+
             i {
                 margin-bottom: 10px;
             }
@@ -84,7 +93,7 @@ body {
 }
 
 /* Mobile support */
-@media only screen and (min-width: 320px) and (max-width: 479px){
+@media only screen and (min-width: 320px) and (max-width: 767px){
     .app {
         margin-top: 50px;
         .search {
