@@ -24,7 +24,7 @@ body {
                 color: #fff;
                 text-align: center;
                 box-shadow: none;
-                border-radius: .50rem;
+                border-radius: 15px;
                 border-color: transparent;
                 box-shadow: 0 6px 15px 0 rgba(0,0,0,0.15);
                 transition: .5s;
@@ -44,8 +44,9 @@ body {
             background-color: #292929;
             box-shadow: 0 6px 15px 0 rgba(0,0,0,0.15);
             border-color: transparent;
-            padding: 1rem;
+            padding: 2rem 1rem;
             transition: .5s;
+            border-radius: 15px;
 
             &:hover {
                 transform: translateY(-5px);
@@ -62,6 +63,46 @@ body {
 
             i {
                 margin-bottom: 10px;
+            }
+        }
+    }
+
+    .game-pass {
+        margin: 150px auto 0 auto;
+
+        h2 {
+            color: #fff;
+            margin-bottom: 25px;
+        }
+
+        .card {
+            color: #fff;
+            background-color: #292929;
+            box-shadow: 0 6px 15px 0 rgba(0,0,0,0.15);
+            border-color: transparent;
+            padding: 2rem;
+            transition: .5s;
+            border-radius: 15px;
+            min-height: 350px;
+
+            display: flex;
+            align-items: end;
+            justify-content: end;
+
+            h4 {
+                margin: 0;
+            }
+
+            &.gp-coming-soon {
+                background-image: url();
+                background-size: cover;
+                background-position: center;
+            }
+
+            &.gp-leaving-soon {
+                background-image: url();
+                background-size: cover;
+                background-position: center;
             }
         }
     }

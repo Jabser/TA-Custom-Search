@@ -6,95 +6,106 @@ body {
   margin-top: 250px;
   text-align: center;
 }
-
 .app .search .header {
   margin-bottom: 50px;
 }
-
 .app .search .header h1 {
   color: #fff;
 }
-
 .app .search form {
   margin-bottom: 50px;
 }
-
 .app .search form .form-control {
   padding: 2rem 1rem;
   font-size: 1.5rem;
   background-color: #292929;
   color: #fff;
   text-align: center;
-  -webkit-box-shadow: none;
-          box-shadow: none;
-  border-radius: .50rem;
+  box-shadow: none;
+  border-radius: 15px;
   border-color: transparent;
-  -webkit-box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.15);
-  -webkit-transition: .5s;
-  transition: .5s;
+  box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.15);
+  transition: 0.5s;
 }
-
 .app .search form .form-control:focus {
   border-color: #52b043;
 }
-
 .app .shortcuts {
   margin-top: 70px;
 }
-
 .app .shortcuts .btn-primary {
   color: #fff;
   background-color: #292929;
-  -webkit-box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.15);
-          box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.15);
+  box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.15);
   border-color: transparent;
-  padding: 1rem;
-  -webkit-transition: .5s;
-  transition: .5s;
+  padding: 2rem 1rem;
+  transition: 0.5s;
+  border-radius: 15px;
 }
-
 .app .shortcuts .btn-primary:hover {
-  -webkit-transform: translateY(-5px);
-          transform: translateY(-5px);
+  transform: translateY(-5px);
 }
-
 .app .shortcuts .btn-primary:active, .app .shortcuts .btn-primary:focus {
   background-color: #292929;
   border-color: transparent;
 }
-
 .app .shortcuts .btn-primary:active:focus {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  box-shadow: none;
 }
-
 .app .shortcuts .btn-primary i {
   margin-bottom: 10px;
 }
-
+.app .game-pass {
+  margin: 150px auto 0 auto;
+}
+.app .game-pass h2 {
+  color: #fff;
+  margin-bottom: 25px;
+}
+.app .game-pass .card {
+  color: #fff;
+  background-color: #292929;
+  box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.15);
+  border-color: transparent;
+  padding: 2rem;
+  transition: 0.5s;
+  border-radius: 15px;
+  min-height: 350px;
+  display: flex;
+  align-items: end;
+  justify-content: end;
+}
+.app .game-pass .card h4 {
+  margin: 0;
+}
+.app .game-pass .card.gp-coming-soon {
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+}
+.app .game-pass .card.gp-leaving-soon {
+  background-image: url();
+  background-size: cover;
+  background-position: center;
+}
 .app .disclaimer {
   width: 80%;
   margin: 150px auto 0 auto;
   color: #999;
   font-size: 70%;
 }
-
 .app .disclaimer a.disclaimer-link {
   display: inline-block;
   margin-bottom: 30px;
   color: #52b043;
   font-size: 120%;
 }
-
 .app .disclaimer a.disclaimer-github {
   display: inline-block;
   margin-top: 20px;
   color: #999;
-  -webkit-transition: .3s;
-  transition: .3s;
+  transition: 0.3s;
 }
-
 .app .disclaimer a.disclaimer-github:hover {
   color: #fff;
 }
@@ -119,5 +130,4 @@ body {
   .app .disclaimer a.disclaimer-github {
     margin-bottom: 50px;
   }
-}
-/*# sourceMappingURL=app.css.map */
+}/*# sourceMappingURL=app.css.map */
