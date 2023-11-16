@@ -3,7 +3,7 @@ TA Custom Search is custom a homepage for your browser. It is specifically creat
 
 Looking for TrueTrophies? That can be found [here](https://github.com/Jabser/TT-Custom-Search).
 
-![cover](cover.png)
+![cover](cover.jpeg)
 
 ---
 
