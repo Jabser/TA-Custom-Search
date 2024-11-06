@@ -19,8 +19,8 @@ If you would rather set it up locally you can download the file [here](https://r
 
 ---
 
-### Browser extensions
-**Coming Soon**
+### Browser extensions - **Coming Soon**
+
 
 A way to instantly search on TrueAchievements without leaving your current website.
 
